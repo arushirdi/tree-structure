@@ -1,0 +1,17 @@
+/* src/App.css */
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Ensure the App container takes at least the full viewport height */
+}
+
+.header {
+  padding: 10px;
+  background-color: #00796b;
+  color: #fff;
+  text-align: center;
+}
+
+.tree-container {
+  flex: 1; /* Allow the tree container to grow and push footer to the bottom */
+}
